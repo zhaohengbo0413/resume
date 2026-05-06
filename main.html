@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>赵恒博 - 个人简历</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      background: #eef2f7;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .resume {
+      max-width: 1050px;
+      margin: 35px auto;
+      background: #ffffff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.09);
+    }
+
+    .top {
+      background: linear-gradient(135deg, #111827, #2563eb);
+      color: white;
+      padding: 45px 40px;
+      text-align: center;
+    }
+
+    .top h1 {
+      font-size: 42px;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+
+    .top p {
+      color: #dbeafe;
+      font-size: 17px;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 18px;
+      font-size: 14px;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: 32% 68%;
+      gap: 0;
+    }
+
+    .sidebar {
+      background: #f8fafc;
+      padding: 32px;
+      border-right: 1px solid #e5e7eb;
+    }
+
+    .content {
+      padding: 32px 38px;
+    }
+
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      margin-bottom: 14px;
+      color: #111827;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+    }
+
+    .section p,
+    .section li {
+      font-size: 15px;
+      color: #374151;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .school,
+    .project {
+      margin-bottom: 22px;
+    }
+
+    .school h3,
+    .project h3 {
+      font-size: 17px;
+      color: #111827;
+      margin-bottom: 4px;
+    }
+
+    .time {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .tag {
+      background: #dbeafe;
+      color: #1d4ed8;
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 14px;
+    }
+
+    .btn-area {
+      text-align: center;
+      padding: 0 35px 35px;
+    }
+
+    button {
+      border: none;
+      background: #2563eb;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    @media (max-width: 800px) {
+      .main {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .top h1 {
+        font-size: 32px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .resume {
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      .btn-area {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="top">
+      <h1>赵恒博</h1>
+      <p>Computer Science Student | Java / SQL / Web Development</p>
+      <div class="contact">
+        <span>电话： 18630185698</span>
+        <span>邮箱： zhaohengbo0413@163.com</span>
+        <span>学校： Asia Pacific University</span>
+      </div>
+    </div>
+
+    <div class="main">
+      <aside class="sidebar">
+        <div class="section">
+          <h2>基本信息</h2>
+          <p><strong>性别：</strong>男</p>
+          <p><strong>出生日期：</strong>2006-04-13</p>
+          <p><strong>政治面貌：</strong>团员</p>
+        </div>
+
+        <div class="section">
+          <h2>专业技能</h2>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">SQL</span>
+            <span class="tag">HTML</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Git</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">VirtualBox</span>
+            <span class="tag">Database</span>
+            <span class="tag">Excel</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>基础知识</h2>
+          <ul>
+            <li>数据结构与排序算法</li>
+            <li>数据库设计与 SQL 查询</li>
+            <li>计算机网络基础</li>
+            <li>计算机硬件基础</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>语言能力</h2>
+          <p>中文：母语</p>
+          <p>英语：流利</p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="section">
+          <h2>教育背景</h2>
+          <div class="school">
+            <h3>亚太科技大学（Asia Pacific University, APU）</h3>
+            <p class="time">2024.10 - 2027.07 | 计算机科学 / 本科</p>
+            <p><strong>主修课程：</strong>数据库导论、网络导论、Python 编程、系统软件与计算概念、人工智能导论、C 语言编程导论、系统分析与设计、Java 面向对象开发、系统开发方法、系统与网络管理、数据分析编程等。</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>项目经历</h2>
+
+          <div class="project">
+            <h3>心理健康 AI 聊天机器人（NLP Chatbot for Mental Health）</h3>
+            <ul>
+              <li>基于自然语言处理设计心理健康聊天机器人，构建 rule-based 对话逻辑框架。</li>
+              <li>优化多轮对话一致性与上下文连贯性，使测试场景中的回复一致性提升约 25%+。</li>
+              <li>通过关键词识别用户压力、焦虑及抑郁倾向，在测试数据集中实现约 80%+ 基础识别准确率。</li>
+              <li>根据不同情绪状态设计安抚、建议和引导类回复策略，使模拟用户测试中的交互满意度提升约 30%+。</li>
+              <li>核心模块使用 Java 完成实现与调试。</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>图书馆书籍管理数据库系统（Library Management System）</h3>
+            <ul>
+              <li>设计并实现图书馆书籍管理数据库系统，建立书籍、用户和借阅记录等 3+ 核心数据表。</li>
+              <li>通过主键和外键关系保证数据一致性与完整性。</li>
+              <li>支持中英文混合书籍数据管理，处理 1000+ 条书籍记录。</li>
+              <li>独立实现书籍信息增删改查、借阅和归还状态更新等核心 CRUD 功能。</li>
+              <li>优化 SQL 查询语句和数据结构设计，使借阅记录查询效率提升约 20%–40%。</li>
+              <li>实现借阅统计与报表功能，提高数据检索和分析能力。</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>学生成绩管理系统（Student Grade Management System）</h3>
+            <ul>
+              <li>将系统划分为 DAO、Service、邮件通知模块和工具类模块，降低代码耦合度。</li>
+              <li>基于业务逻辑模块处理 500+ 条学生成绩数据，自动判断是否通过并计算绩点。</li>
+              <li>将绩点转换为 A、B、C、D、F 等级，并生成个人成绩单。</li>
+              <li>使用 JavaMail API 和 SMTP 自动发送补考提醒邮件。</li>
+              <li>测试环境中，对未通过学生的邮件发送成功率达到 100%。</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>自我评价</h2>
+          <p>具有良好的编程基础和学习能力，能够较快学习新技术并应用到项目开发中。熟悉 Java、SQL、Python 等编程语言，具备一定的数据库设计、Web 开发和系统分析能力。对软件开发有浓厚兴趣，能够适应团队协作和国际化学习环境。</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="btn-area">
+      <button onclick="window.print()">打印 / 保存为 PDF</button>
+    </div>
+  </div>
+</body>
+</html>
